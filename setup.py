@@ -6,5 +6,4 @@ setup(
     author="Sarad",
     packages=find_packages(),
     license="MIT"
-
 )
