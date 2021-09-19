@@ -1,1 +1,9 @@
 stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+      - src\get_data.py
+      - src\load_data.py
+      - Data_given\ai4i2020.csv
+    outs:
+      - data\raw\ai4i2020.csv
