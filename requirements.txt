@@ -17,8 +17,6 @@ pandas==1.1.5
 # third party packages
 dvc
 dvc[gdrive]
-sklearn
-pandas
 pytest
 tox
 flake8
