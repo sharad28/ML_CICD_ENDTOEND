@@ -15,7 +15,7 @@ app = Flask(__name__, static_folder=static_dir, template_folder=template_dir)
 @cross_origin()
 def homepage():
     #print(train_and_evaluate.scores)
-    return render_tamplate("index.html")
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
